@@ -11,7 +11,7 @@ public class Fdlsa {
         for (int i = 0; i < 500; i++) {
             Thread.sleep(100);
             ob.add(new byte[1024*1024]);//заполняем лист
-
+//////
 
             if(i%10==0){  //
                 ob.clear();// каждую 10 итерацию очищаем лист
